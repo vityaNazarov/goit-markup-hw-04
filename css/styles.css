@@ -41,6 +41,16 @@ body {
   color: var(--title-text-color);
 }
 
+/* overlay */
+.overlay {
+  background-repeat: no-repeat;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/Img:overlay.jpg);
+}
+
 /* логтип */
 
 .container {
