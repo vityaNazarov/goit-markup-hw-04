@@ -153,6 +153,8 @@ body {
 }
 
 .contacts-header {
+	display: flex;
+	align-items: center;
 	color: var(--primary-text-color);
 	text-decoration: none;
 	font-weight: 500;
@@ -499,9 +501,6 @@ body {
 	gap: 30px;
 }
 
-.clients-logo-item {
-}
-
 .clients-logo-link {
 	display: flex;
 	justify-content: center;
@@ -579,9 +578,6 @@ body {
 	font-style: normal;
 }
 
-.footer-links {
-}
-
 .footer-links-title {
 	font-weight: 700;
 	font-size: 14px;
@@ -597,9 +593,6 @@ body {
 	display: flex;
 	justify-content: flex-start;
 	gap: 10px;
-}
-
-.footer-links-item {
 }
 
 .footer-links-link {
