@@ -44,6 +44,8 @@ body {
 /* overlay */
 .overlay {
 	background-repeat: no-repeat;
+	background-position: 100%;
+	background-size: contain;
 	max-width: 1600px;
 	margin-left: auto;
 	margin-right: auto;
@@ -78,12 +80,11 @@ body {
 	flex-basis: calc((100% - 60px) / 3);
 }
 
-.image-porfolio:hover,
-.image-porfolio:focus {
-	border: 1px solid #eeeeee;
+.image-porfolio-link:hover,
+.image-porfolio-link:focus {
+	display: block;
 	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
 		1px 4px 6px rgba(0, 0, 0, 0.16);
-	cursor: pointer;
 }
 
 .header-border {
@@ -171,6 +172,7 @@ body {
 .header-icons {
 	margin-right: 10px;
 	cursor: pointer;
+	fill: var(--primary-text-color);
 }
 
 .header-icons:hover,
